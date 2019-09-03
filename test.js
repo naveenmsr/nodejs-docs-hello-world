@@ -1,7 +1,7 @@
 var request = require("request"),
     assert = require('assert'),
     chai = require('chai'),
-    base_url = "https://nodewithtest.azurewebsites.net";
+    base_url = "https://cicd-integrated-testing.azurewebsites.net/";
 describe("Node Server", function(){
     describe("GET /", function(){
         it("returns status code 200", function(done){
